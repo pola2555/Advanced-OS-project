@@ -2,7 +2,7 @@
 
 **LRU:**
 
-![](Aspose.Words.93caed6f-8eee-45d3-9396-b1d4e69ac92d.001.png)
+![](readme/Aspose.Words.93caed6f-8eee-45d3-9396-b1d4e69ac92d.001.png)
 
 LRU class will receive the pages as follows:
 
