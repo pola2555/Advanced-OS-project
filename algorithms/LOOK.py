@@ -1,27 +1,9 @@
 import numpy as np # if you want to use it.
 import copy # if you want to use it. in copying lists. using copy.deepcopy() method.
-'''
-copy.deepcopy() method is used to copy the list and its elements to a new list without referencing the original list.
-usage:
-    list1 = [1, 2, 3]
-    list2 = copy.deepcopy(list1)
-    list2.append(4)
-    print(list1) # [1, 2, 3]
-    print(list2) # [1, 2, 3, 4]
-you can try it in a test file.
-'''
 
 class LOOK_class:
     def __init__(self):
-        # this is the constructor of the class.
-        # ignore it for now.
        pass
-
-
-
-    # add as many functions as you want here but don't change the name of the function below or what it returns or its parameters.
-    
-    
     
     def run(self, queue:list = None, head_start :int = None, head_previous:int = None):
         '''
@@ -64,10 +46,7 @@ class LOOK_class:
             else:
                 dir *= -1
            
-        
-        
         return sorted_queue
-
 
 
 if __name__ == "__main__":
